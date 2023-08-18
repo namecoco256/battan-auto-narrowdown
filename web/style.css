@@ -1,0 +1,17 @@
+.battan-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.battan-table tr:nth-child(2n){
+  height:60px;
+}
+.battan-table tr:nth-child(2n-1){
+  height:20px;
+}
+.battan-table td:nth-child(2n){
+  width:60px;
+}
+.battan-table td:nth-child(2n-1){
+  width:20px;
+}
